@@ -112,3 +112,25 @@ img:hover{
     background-color: #242424;
     height: 20vh;
 }
+
+
+@media(max-width:1024px){
+    .navbar{
+        max-width: 100%;
+    }
+}
+
+@media(max-width:700px){
+    html{
+        font-size: 10px;
+    }
+    .content{
+        max-width: 100%;
+    }
+}
+
+@media(max-width:450px){
+    .navbar{
+        flex-direction: column;
+    }
+}
