@@ -118,11 +118,19 @@ img:hover{
     .navbar{
         max-width: 100%;
     }
+    html{
+        font-size: 10px;
+    }
+    img{
+        width: 15rem;
+        height:15rem;
+    }
+   
 }
 
 @media(max-width:700px){
     html{
-        font-size: 10px;
+        font-size: 8px;
     }
     .content{
         max-width: 100%;
@@ -130,7 +138,23 @@ img:hover{
 }
 
 @media(max-width:450px){
-    .navbar{
-        flex-direction: column;
+    html{
+        font-size: 8px;
+    }
+    img{
+        width: 10rem;
+        height:10rem;
+        padding: 1.5rem 1.5rem;
+    }
+}
+
+@media(max-width:370px){
+    html{
+        font-size: 8px;
+    }
+    img{
+        width: 7rem;
+        height:7rem;
+        padding: 1rem 1rem;
     }
 }
